@@ -1,0 +1,44 @@
+<!-- <h1 [routerLink]="'/'>hello</h1> -->
+<div class="component">
+  <h1>Well Come</h1>
+  <div class="form">
+    <form (submit)="onSignup(signupForm)" #signupForm="ngForm">
+      <div class="form">
+        <div>
+          <label for="First Name">First Name</label>
+          <br />
+          <input
+            type="text"
+            name="fname"
+            placeholder="Enter First Name"
+            ngModel
+          />
+        </div>
+        <!--  -->
+        <br />
+        <div>
+          <label for="Last Name">Enter Last Name</label>
+          <br />
+          <input type="text" name="lname" placeholder="Last Name" ngModel />
+          <br />
+        </div>
+        <br />
+        <div>
+          <label for="Email">Phone</label>
+          <br />
+          <input
+            type="text"
+            name="email"
+            placeholder=" Enter Phone number"
+            ngModel
+          />
+          <br />
+        </div>
+        <br />
+        <button class="reg" type="submit">submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+<!-- <app-record></app-record> -->
+<app-otp></app-otp>

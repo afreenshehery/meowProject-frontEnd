@@ -1,0 +1,53 @@
+.component{
+    
+       width: 100%;
+       height: 50rem;
+       background-image: url('/assets/v960-ning-30.jpg');
+       background-repeat:no-repeat;
+       background-position: center;
+       background-size: cover;
+      
+
+}
+
+form{
+      
+       width: 50%;
+       margin-left: auto;
+       margin-right: auto; 
+       border-radius: 15px;
+       padding: 20PX;
+      
+       
+     
+       
+       
+}
+form .form{
+      margin-left: 30%; 
+      margin-top: 20%;  
+      
+}
+input{
+       width: 60%;
+       height: 2rem;
+       border-radius: 15px;
+       border: none;
+       outline: none;
+       /* margin-top: 30px; */
+      
+       
+}
+form label{
+       margin-top: 20px;   
+}
+
+.reg{
+       width: 4rem;
+       height: 2rem;
+       border-radius: 15px;
+       border: none;
+       margin-top: 20px;
+       margin-left: 21%;
+     
+}

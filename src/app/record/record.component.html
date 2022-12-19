@@ -1,0 +1,9 @@
+<!--  -->
+<div style="margin: 100px" [routerLink]="'/'">
+  <h1>SAY MEOW...</h1>
+  <button class="btn" style="margin: 10px" (click)="startService()">
+    <i class="fa fa-microphone" style="font-size: 48px; color: red"></i>
+  </button>
+  <!-- <button style="margin: 10px" (click)="stopService()">Stop</button> -->
+  <p>{{ service.text }}</p>
+</div>
